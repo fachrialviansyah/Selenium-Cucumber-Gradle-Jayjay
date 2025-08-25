@@ -7,7 +7,7 @@
 - Selenium (Untuk otomatisasi browser)
 - JUnit (Untuk menjalankan test)
 - Gherkin dan Framework Cucumber (Untuk menjalankan test dan report test)
-<img src="https://skillicons.dev/icons?i=java,idea,selenium,gradle,gherkin"/>
+<img src="https://skillicons.dev/icons?i=java,idea,selenium,gradle,gherkin"/> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/junit.png"/>
 
 ---
 
