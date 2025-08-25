@@ -19,24 +19,25 @@
 5. View report cucumber dengan format html: report/cucumber.html
 
 ### :zap: Struktur Project
-│── src 
-│   └── test
-│       ├── java
-│       │   ├── page                    # Page Object Models (POM)
-│       │   │   ├── HomePage.java
-│       │   │   └── LoginPage.java
-│       │   ├── stepdef                 # Step Definitions
-│       │   │   ├── BaseTest.java
-│       │   │   ├── CucumberHooks.java
-│       │   │   ├── HomeStepDef.java
-│       │   │   ├── LoginStepDef.java
-│       │   │   └── CucumberTest.java
-│       └── resources
-│           └── features               # Feature Files (BDD)
-│               └── login.feature
-├── .gitignore                          # File untuk mengecualikan file tertentu dari git
-├── build.gradle                        # File konfigurasi Gradle
-├── gradlew                             # Wrapper untuk Gradle (Linux/Mac)
-├── gradlew.bat                         # Wrapper untuk Gradle (Windows)
-├── config.properties                   # File konfigurasi proyek
-└── README.md                           # Dokumentasi proyek
+    │── src 
+    │   └── test
+    │       ├── java
+    │       │   ├── page                    # Page Object Models (POM)
+    │       │   │   ├── HomePage.java
+    │       │   │   └── LoginPage.java
+    │       │   ├── stepdef                 # Step Definitions
+    │       │   │   ├── BaseTest.java
+    │       │   │   ├── CucumberHooks.java
+    │       │   │   ├── HomeStepDef.java
+    │       │   │   ├── LoginStepDef.java
+    │       │   │   └── CucumberTest.java
+    │       └── resources
+    │           └── features               # Feature Files (BDD)
+    │               └── login.feature
+    ├── .gitignore                          # File untuk mengecualikan file tertentu dari git
+    ├── build.gradle                        # File konfigurasi Gradle
+    ├── gradlew                             # Wrapper untuk Gradle (Linux/Mac)
+    ├── gradlew.bat                         # Wrapper untuk Gradle (Windows)
+    ├── config.properties                   # File konfigurasi proyek
+    └── README.md                           # Dokumentasi proyek
+
