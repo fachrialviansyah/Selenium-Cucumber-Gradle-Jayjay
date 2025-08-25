@@ -40,7 +40,7 @@
     ├── config.properties                               # File konfigurasi proyek
     └── README.md                                       # Dokumentasi proyek
 
-### :zap: Hasil penulisan gherkin menggunakan cucumber
+### :zap: Hasil penulisan gherkin
     Feature: Login
         @positive-test
         Scenario: Login with valid username and password
