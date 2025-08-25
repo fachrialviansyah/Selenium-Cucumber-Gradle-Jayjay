@@ -13,10 +13,10 @@
 
 ### :zap: Step Installasi Project
 1. Clone Repository git clone https://github.com/fachrialviansyah/Selenium-Cucumber-Gradle-Jayjay.git
-2. Install Dependensi jalankan perintah: ./gradlew build
-3. Running Test, jalankan perintah: ./gradlew test
-4. Melakukan test yang hanya 1 di pilih: ./gradlew test -Dcucumber.options="--tags @regression"
-5. View report cucumber dengan format html: report/cucumber.html
+2. Install Dependensi jalankan perintah: **./gradlew build**
+3. Running Test, jalankan perintah: **./gradlew test**
+4. Melakukan test yang hanya 1 di pilih: **./gradlew test -Dcucumber.options="--tags @regression"**
+5. View report cucumber dengan format html: **report/cucumber.html**
 
 ### :zap: Struktur Project
     │── src 
