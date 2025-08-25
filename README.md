@@ -22,22 +22,24 @@
     │── src 
     │   └── test
     │       ├── java
-    │       │   ├── page                    # Page Object Models (POM)
+    │       │   ├── com.fachri.page                     # Page Object Models (POM)
     │       │   │   ├── HomePage.java
     │       │   │   └── LoginPage.java
-    │       │   ├── stepdef                 # Step Definitions
-    │       │   │   ├── BaseTest.java
+    │       │   ├── stepdef                             # Step Definitions
     │       │   │   ├── CucumberHooks.java
     │       │   │   ├── HomeStepDef.java
     │       │   │   ├── LoginStepDef.java
-    │       │   │   └── CucumberTest.java
+    │       │   └── BaseTest.java
+    │       │   └── CucumberTest.java
     │       └── resources
-    │           └── features               # Feature Files (BDD)
-    │               └── login.feature
-    ├── .gitignore                          # File untuk mengecualikan file tertentu dari git
-    ├── build.gradle                        # File konfigurasi Gradle
-    ├── gradlew                             # Wrapper untuk Gradle (Linux/Mac)
-    ├── gradlew.bat                         # Wrapper untuk Gradle (Windows)
-    ├── config.properties                   # File konfigurasi proyek
-    └── README.md                           # Dokumentasi proyek
+    │           └── login.feature                       # Feature Files (BDD)
+    ├── .gitignore                                      # File untuk mengecualikan file tertentu dari git
+    ├── build.gradle                                    # File konfigurasi Gradle
+    ├── gradlew                                         # Wrapper untuk Gradle (Linux/Mac)
+    ├── gradlew.bat                                     # Wrapper untuk Gradle (Windows)
+    ├── config.properties                               # File konfigurasi proyek
+    └── README.md                                       # Dokumentasi proyek
+
+### :zap: Contoh penulisan gherkin menggunakan cucumber
+
 
