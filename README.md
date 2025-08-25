@@ -41,11 +41,14 @@
     └── README.md                                       # Dokumentasi proyek
 
 ### :zap: Hasil penulisan gherkin menggunakan cucumber
-    Feature: Login Feature
-        Scenario: Login dengan kredensial valid
-        Given User membuka halaman login
-        When User memasukkan username dan password yang valid
-        Then User berhasil masuk ke halaman dashboard
+    Feature: Login
+        @positive-test
+        Scenario: Login with valid username and password
+         Given user is on login page
+         When user input username with "standard_user"
+         And user input password "secret_sauce"
+         And user click login button
+         Then user is on homepage
 
 
 
