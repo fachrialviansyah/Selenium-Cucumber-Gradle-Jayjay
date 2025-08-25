@@ -2,7 +2,6 @@
 
 ### Tugas Project ini automation testing aplikasi web https://www.saucedemo.com/v1/
 ## :zap: About Me
-<img src="https://skillicons.dev/icons?i=selenium,gherkin,gradle,java,idea"/>
 - :mortar_board: Fresh graduates bachelor of informatic engginering year 2021 at Institut Teknologi Indonesia - Serpong
 - I am QA Engineer
 - 🌱 I’m currently learning HTML & PHP framework CodeIgniter and RESTful API.
