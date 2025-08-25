@@ -68,6 +68,7 @@
 
 ### :zap: Hasil report test cucumber
 
-<img width="1064" height="732" alt="image" src="https://github.com/user-attachments/assets/0903c39b-62d1-4ba9-9d1d-f2e54f5f9b20" />
+<img width="1067" height="734" alt="image" src="https://github.com/user-attachments/assets/04c36028-7ace-4de5-9d7a-13307b692e62" />
+
 
 
