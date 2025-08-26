@@ -44,18 +44,12 @@ jobs:
 
     # Deploy to Github Pages
     - name: Deploy report to Github Pages
-      if: always()
       uses: peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e
       with:
+        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         publish_branch: gh-pages
-        publish_dir: public
-        destination_dir: default is 
-        allow_empty_commit: false
-        keep_files: false
-        force_orphan: false
-        enable_jekyll: false
-        disable_nojekyll: false
-        exclude_assets: .github
+        publish_dir: ./public
+        allow_empty_commit: true
               
 
     
