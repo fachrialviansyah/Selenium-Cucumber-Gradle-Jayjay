@@ -71,7 +71,8 @@
 <img width="1067" height="734" alt="image" src="https://github.com/user-attachments/assets/04c36028-7ace-4de5-9d7a-13307b692e62" />
 
 ### :zap: Github Actions
-Feature: Login
+
+    Feature: Login
         @positive-test
         Scenario: Login with valid username and password
          Given user is on login page
@@ -79,6 +80,14 @@ Feature: Login
          And user input password "secret_sauce"
          And user click login button
          Then user is on homepage
+
+        @negative-test
+        Scenario: Login with valid username and password
+         Given user is on login page
+         When user input username with "standard_user"
+         And user input password "invalid"
+         And user click login button
+         Then user see error messege "Epic sadface: Username and password do not match any user in this service"
 
 
 
