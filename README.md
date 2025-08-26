@@ -122,7 +122,7 @@
             github_token: ${{ secrets.GITHUB_TOKEN }}
             publish_dir: reports
             
-### :zap: Hasil report test cucumber
+### :zap: Hasil report test Github Actions with framework cucumber
 
 <img width="1072" height="745" alt="image" src="https://github.com/user-attachments/assets/d7de9758-032e-4641-9834-db9108685b51" />
 
