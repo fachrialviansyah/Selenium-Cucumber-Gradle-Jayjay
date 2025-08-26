@@ -47,8 +47,8 @@ jobs:
       if: always()
       uses: actions/configure-pages@v5.0.0
       with:
-        PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        PUBLISH_DIR: reports
+        token: ${{ github.token }}
+        enablement: false
 
     
       
