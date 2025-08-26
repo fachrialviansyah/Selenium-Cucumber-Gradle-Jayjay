@@ -72,22 +72,58 @@
 
 ### :zap: Github Actions
 
-    Feature: Login
-        @positive-test
-        Scenario: Login with valid username and password
-         Given user is on login page
-         When user input username with "standard_user"
-         And user input password "secret_sauce"
-         And user click login button
-         Then user is on homepage
+    name: Web Automation Workflow
+    on:
+      push:
+        branches: [ "master" ]
+      pull_request:
+        branches: [ "master" ]
+      workflow_dispatch:
+    
+    jobs:
+      run-automation-test:
+        runs-on: ubuntu-latest
+    
+        steps:
+        # download repo
+        - uses: actions/checkout@v4
+    
+        # setup java
+        - name: Set up JDK 17
+          uses: actions/setup-java@v4
+          with:
+            java-version: '17'
+            distribution: 'temurin'
+        
+        # install browser
+        - name: Setup Chrome
+          uses: browser-actions/setup-chrome@v2.1.0
+    
+        # setup gradlew
+        - name: Setup gradlew
+          run: chmod +x gradlew
+          
+        # Execute gradle command for running cucumber test
+        - name: Execute Test
+          run: ./gradlew cucumber
+    
+         # Archive Test Result
+        - name: Archive Test Result
+          uses: actions/upload-artifact@v4.6.2
+          if: always()
+          with:
+            name: Cucumber Report
+            path: reports
+    
+        # Deploy to Github Pages
+        - name: Deploy report to Github Pages
+          uses: peaceiris/actions-gh-pages@v4.0.0
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: reports
+            
+### :zap: Hasil report test cucumber
 
-        @negative-test
-        Scenario: Login with valid username and password
-         Given user is on login page
-         When user input username with "standard_user"
-         And user input password "invalid"
-         And user click login button
-         Then user see error messege "Epic sadface: Username and password do not match any user in this service"
-
+<img width="1072" height="745" alt="image" src="https://github.com/user-attachments/assets/d7de9758-032e-4641-9834-db9108685b51" />
 
 
