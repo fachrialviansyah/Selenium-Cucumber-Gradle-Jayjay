@@ -18,7 +18,7 @@ Feature: Login
 
 
   @batas-test
-  Scenario: Login with invalid username and password
+  Scenario: Login with invalid username
     Given user is on login page
     When user input username with "username_salah12345789"
     And user input password "secret_sauce"
