@@ -75,7 +75,7 @@
     └── README.md                                                       # Dokumentasi proyek
 
 
-### :zap: Hasil penulisan gherkin
+### :zap: Hasil penulisan Login gherkin
     Feature: Login
         @positive-test
         Scenario: Login with valid username and password
@@ -101,7 +101,7 @@
          And user click login button
          Then user see error messege "Epic sadface: Username and password do not match any user in this service"
 
-### :zap: Hasil penulisan gherkin
+### :zap: Hasil penulisan Rest Api gherkin
     Feature: Automation Testing REST API User Controller
           @get-test
           Scenario: Test Get List Data Users
