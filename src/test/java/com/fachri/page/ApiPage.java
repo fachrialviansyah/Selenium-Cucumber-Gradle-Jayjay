@@ -43,7 +43,7 @@ public class ApiPage {
     }
 
     public void validationResponseBodyGetListUsers() {
-        Integer id = res.jsonPath().getInt("id");
+        String id = res.jsonPath().getString("id");
         String name = res.jsonPath().getString("name");
         String email = res.jsonPath().getString("email");
         String gender = res.jsonPath().getString("gender");
