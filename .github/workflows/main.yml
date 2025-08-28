@@ -40,14 +40,14 @@ jobs:
       if: always()
       with:
         name: Api Report
-        path: reports/api
+        path: reports/api/api.feature
 
     # Deploy to Github Pages
     - name: Deploy report to Github Pages
       uses: peaceiris/actions-gh-pages@v4.0.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: reports/api
+        publish_dir: reports/api/api.feature
               
 
     
