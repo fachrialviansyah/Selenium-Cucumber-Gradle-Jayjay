@@ -67,8 +67,8 @@ tasks.register('api', JavaExec) {
 
     args = [
             '--plugin', 'pretty',
-            '--plugin', 'html:reports/api-report.html',
-            '--plugin', 'json:reports/api-report.json',
+            '--plugin', 'html:reports/api/api-report.html',
+            '--plugin', 'json:reports/api/api-report.json',
             '--glue', 'com.fachri',
             '--tags', tags,
             'src/test/resources'
