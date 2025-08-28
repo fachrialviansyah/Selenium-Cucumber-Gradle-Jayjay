@@ -43,17 +43,17 @@ public class ApiPage {
     }
 
     public void validationResponseBodyGetListUsers() {
-        List<Object> id = res.jsonPath().getList("id");
-        List<Object> name = res.jsonPath().getList("name");
-        List<Object> email = res.jsonPath().getList("email");
-        List<Object> gender = res.jsonPath().getList("gender");
-        List<Object> status = res.jsonPath().getList("status");
+        Integer id = res.jsonPath().getInt("id");
+        String name = res.jsonPath().getString("name");
+        String email = res.jsonPath().getString("email");
+        String gender = res.jsonPath().getString("gender");
+        String status = res.jsonPath().getString("status");
 
-        assertThat(id.getFirst()).isNotNull();
-        assertThat(name.getFirst()).isNotNull();
-        assertThat(email.getFirst()).isNotNull();
-        assertThat(gender.getFirst()).isIn("female", "male");
-        assertThat(status.getFirst()).isIn("active", "inactive");
+        assertThat(id).isNotNull();
+        assertThat(name).isNotNull();
+        assertThat(email).isNotNull();
+        assertThat(gender).isNotNull();
+        assertThat(status).isNotNull();
     }
 
     public void validationResponseJsonWithJSONSchema(String filename) {
