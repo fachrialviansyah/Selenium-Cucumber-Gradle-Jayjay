@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-automation-test:
+  restAPI-automation-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -32,7 +32,7 @@ jobs:
       
     # Execute gradle command for running cucumber test
     - name: Execute Test
-      run: ./gradlew cucumber
+      run: ./gradlew api
 
      # Archive Test Result
     - name: Archive Test Result
