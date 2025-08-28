@@ -54,7 +54,7 @@ tasks.register('cucumber', JavaExec) {
             '--plugin', 'json:reports/cucumber.json',
             '--glue', 'com.fachri',
             '--tags', tags,
-            'src/test/resources'
+            'src/test/resources/login.feature'
     ]
 }
 
@@ -71,7 +71,7 @@ tasks.register('api', JavaExec) {
             '--plugin', 'json:reports/api/api-report.json',
             '--glue', 'com.fachri',
             '--tags', tags,
-            'src/test/resources'
+            'src/test/resources/api.feature'
     ]
 }
 
