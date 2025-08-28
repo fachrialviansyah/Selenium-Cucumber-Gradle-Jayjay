@@ -249,8 +249,20 @@
                 github_token: ${{ secrets.GITHUB_TOKEN }}
                 publish_dir: reports
             
-### :zap: Hasil report test Github Actions with framework cucumber
-
+### :zap: Hasil Login Report Github Actions with framework cucumber
 <img width="1072" height="745" alt="image" src="https://github.com/user-attachments/assets/d7de9758-032e-4641-9834-db9108685b51" />
+
+### :zap: Hasil Status Github Action (Login)
+<img width="1354" height="652" alt="image" src="https://github.com/user-attachments/assets/a3d07b95-08b7-45c4-8534-eef82b4e2c3d" />
+
+### :zap: Hasil REST API Github Actions with framework cucumber
+<img width="804" height="695" alt="image" src="https://github.com/user-attachments/assets/a90e7527-2225-46ec-afe2-45ac81aa4aeb" />
+
+### :zap: Hasil Status Github Action (Rest Api)
+<img width="1355" height="650" alt="image" src="https://github.com/user-attachments/assets/f93d5fd0-8e53-497f-aa7f-2340d3e5dc5f" />
+
+
+
+
 
 
