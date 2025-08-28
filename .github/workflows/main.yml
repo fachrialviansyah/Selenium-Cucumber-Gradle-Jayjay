@@ -1,5 +1,4 @@
 name: REST API Workflow
-
 on:
   push:
     branches: [ "master" ]
