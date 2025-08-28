@@ -1,4 +1,4 @@
-name: RestAPI Workflow
+name: RestAPI Test Workflow
 on:
   push:
     branches: [ "master" ]
