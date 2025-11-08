@@ -252,11 +252,17 @@
 ### :zap: Hasil Login Report Github Actions with framework cucumber
 <img width="1072" height="745" alt="image" src="https://github.com/user-attachments/assets/d7de9758-032e-4641-9834-db9108685b51" />
 
+### :zap: Hasil Login Report Jenskin with framework cucumber
+<img width="1065" height="743" alt="image" src="https://github.com/user-attachments/assets/2075a570-1e42-42ea-9b02-ed601daa6b4b" />
+
 ### :zap: Hasil Status Github Action (Login)
 <img width="1354" height="652" alt="image" src="https://github.com/user-attachments/assets/a3d07b95-08b7-45c4-8534-eef82b4e2c3d" />
 
 ### :zap: Hasil REST API Github Actions with framework cucumber
 <img width="804" height="695" alt="image" src="https://github.com/user-attachments/assets/a90e7527-2225-46ec-afe2-45ac81aa4aeb" />
+
+### :zap: Hasil REST API Jenskin with framework cucumber
+<img width="804" height="699" alt="image" src="https://github.com/user-attachments/assets/a1ede80c-d0c6-46bb-8e76-bd4c18a8790e" />
 
 ### :zap: Hasil Status Github Action (Rest Api)
 <img width="1355" height="650" alt="image" src="https://github.com/user-attachments/assets/f93d5fd0-8e53-497f-aa7f-2340d3e5dc5f" />
